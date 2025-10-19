@@ -1,8 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+div {
+    width: 200px;
+    height: 200px;
+    background-color: green;
 }
-/* css trang web */
-.text-blue {
-  color: #3e3efd;
+div:hover {
+    transform: rotate(45deg);
+}
